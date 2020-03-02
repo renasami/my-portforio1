@@ -1,0 +1,137 @@
+body{
+    background-color:rgb(10, 15, 20);
+}
+.eng{
+    color: whitesmoke;
+    font-family: Comic Sans MS;
+}
+
+#navi{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: rgb(22, 31, 31);
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+#navi h1{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+#navi ul{
+    display: flex;
+    list-style: none;
+}
+#navi ul li {
+    width: calc(100%/4);
+}
+#navi ul li a {
+   display: block;
+   padding: 17px 5%;
+   width: 90%;
+   color: #fff;
+   text-align: center;
+   text-decoration: none;
+}
+#items{
+    padding-top: 150px;
+    color: whitesmoke;
+}
+#home{
+    height: 600px;
+}
+.home-item{
+    float: left;
+    overflow: auto;
+}
+#home-picture{
+    height: 500px;
+}
+.home-item2{
+    height: 250px;
+}
+.home-item2-2{
+    height: 250px;
+}
+#pic0{
+    width: 40%;
+    height: 50%;
+}
+#pic1 {
+    width: 60%;
+    height: 50%;
+    float: left;
+    overflow: auto;
+}
+#pic3 {
+    width: 55%;
+    height: 50%;
+    
+}
+#pic2 {
+    width: 45%;
+    height: 50%;
+    float: left;
+    overflow: auto;
+    
+}
+#aboutMe {
+   padding: 30px;
+   height: 700px;
+}
+#me-pic{
+    height: 300px;
+    width: 100%;
+}
+.me-item{
+    padding: 30px 0;
+    
+}
+.me-item2{
+    padding: 30px;
+    height: 50%;
+    float: left;
+}
+.ANI{
+    padding-left: 80px;
+}
+.me-item  table{
+    font-size: 20px;
+}
+.skill-item{
+    text-align: center;
+}
+#skill{
+    height: 700px;
+    padding:30px;
+}
+.skill-item2 img{
+    height: 300px;
+    width: 300px;
+    padding: 0 50px;
+}
+.skill-item3, .skill-item4{
+    padding:50px 0;
+    margin:  auto;
+    height:50%;
+    float: left;
+}
+#vuepic{
+    padding:20px 0;
+}
+#htmlskil, #cssskil, #swiftskil, #vueskil, #jsskil{
+    display:inline-block;
+    background-color: darkorange;
+    z-index: 3;
+}
+#contact{
+    height: 300px;
+    padding: 30px;
+}
+.contact-item i{
+    color: white;
+}
